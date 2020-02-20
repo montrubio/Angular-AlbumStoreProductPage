@@ -6,10 +6,14 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./product-page.component.css']
 })
 export class ProductPageComponent implements OnInit {
-
+  comida;
+  //console.log(comida);
   constructor() { }
 
   ngOnInit() {
+    this.comida = ['pato', 'gato', 'c'];
+
+    // return comida;
   }
 
 }
